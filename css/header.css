@@ -1,0 +1,41 @@
+            @font-face {
+                font-family: "roboto";
+                src: url(./fonts/roboto-regular-webfont.woff2) format("woff2"), url(./fonts/roboto-regular-webfont.woff) format("woff");
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+            
+            html {
+                font-family: "roboto", sans-serif;
+                font-size: 18px;
+                color: black;
+            }
+            
+            body {
+                display: flex;
+                justify-content: center;
+            }
+            
+            .contenedor {
+                width: 1440px;
+                height: 80px;
+            }
+            
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            
+            header {
+                background-color: #F8F8F8;
+                align-items: center;
+                display: flex;
+            }
+            
+            .menuPrincipal {
+                flex-grow: 1;
+                display: flex;
+                justify-content: space-around;
+            }
